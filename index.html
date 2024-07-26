@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me ??</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="form-container" >
+        <div class="image">
+            <img src="hunn.gif" alt="Employee Image" >
+        </div>
+        <form id="registration-form">
+            <div>
+                <h1>Do You Love Me ??</h1>
+            </div>
+           
+            <div class="btn-box">
+                <button type="submit" id="yes">YES</button>
+                <button type="submit" id="no">NO</button>
+            </div>
+        </form>
+    </div>  
+
+    <div class="container" id="YES-container" style="display: none;">
+        <div class="image">
+            <img src="thanks.gif" alt="Employee Image" >
+        </div>
+        <div class="result">
+            <h1>Thank! I Love You Too :) </h1>
+        </div>
+    </div>
+
+    <div class="container" id="NO-container" style="display: none;">
+        <div class="image">
+            <img src="pliss.gif" alt="Employee Image" >
+        </div>
+        <form id="registration-form">
+            <div>
+                <h1>Please! think once again):</h1>
+            </div>
+           
+            <div class="btn-box">
+                <button type="submit" id="no-yes">YES</button>
+                <button type="submit" id="no-no" >NO</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container" id="NO-NO-container" style="display: none;">
+        <div class="image">
+            <img src="pliss1.gif" alt="Employee Image" >
+        </div>
+        <form id="registration-form">
+            <div>
+                <h1>ek bar aur soch lo ):</h1>
+            </div>
+           
+            <div class="btn-box">
+                <button type="submit" id="no-no-yes">YES</button>
+                <button type="submit" id="move_no" >NO</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
