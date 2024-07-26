@@ -13,5 +13,3 @@ At SayLove, our mission is to make expressing love and appreciation effortless a
 Visit [SayLove](https://saylove.netlify.app/) today and start sharing the love in your unique way!
 
 ---
-
-Feel free to modify this description to better suit your vision for the project.
